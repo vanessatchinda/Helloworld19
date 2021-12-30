@@ -3,4 +3,4 @@ From tomcat:9.0
 
 # Maintainer 
 MAINTAINER "Michele" 
-COPY ./*.war /usr/local/tomcat/webapps
+ADD sample.war /usr/local/tomcat/webapps
