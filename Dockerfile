@@ -1,6 +1,6 @@
 # Pull base image 
-From tomcat:8-jre8 
+From tomcat:9.0 
 
 # Maintainer 
-MAINTAINER "vanessatchinda@yahoo.fr" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+MAINTAINER "Michele" 
+COPY ./webapp/target/webapp.war /usr/local/tomcat
