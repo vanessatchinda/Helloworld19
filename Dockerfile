@@ -1,5 +1,5 @@
 # Pull base image 
-From tomcat:9.0.56-jdk8 
+From tomcat:9.0 
 
 # Maintainer 
 MAINTAINER "Michele" 
